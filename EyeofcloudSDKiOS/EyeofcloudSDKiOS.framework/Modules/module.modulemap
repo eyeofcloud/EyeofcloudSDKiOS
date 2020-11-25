@@ -1,6 +1,0 @@
-framework module EyeofcloudSDKiOS {
-  umbrella header "EyeofcloudSDKiOS.h"
-
-  export *
-  module * { export * }
-}
