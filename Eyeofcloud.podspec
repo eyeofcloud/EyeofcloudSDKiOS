@@ -15,8 +15,7 @@ Pod::Spec.new do |spec|
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   spec.vendored_frameworks = "EyeofcloudSDKiOS.framework"
-  spec.frameworks = "AudioToolbox", "CFNetwork","Foundation","MobileCoreServices","Security","SystemConfiguration","UIKit"
-  spec.libraries = "icucore", "sqlite3"
+  spec.frameworks = "Foundation"
   spec.preserve_paths = 'EyeofcloudSDKiOS.framework'
   spec.requires_arc = true
 
