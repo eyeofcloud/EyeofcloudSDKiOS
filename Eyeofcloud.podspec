@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Eyeofcloud"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Eyeofcloud SDK for iOS."
   spec.description  = <<-DESC
 			Eyeofcloud SDK for iOS(Swift and Objective C) applications. 
