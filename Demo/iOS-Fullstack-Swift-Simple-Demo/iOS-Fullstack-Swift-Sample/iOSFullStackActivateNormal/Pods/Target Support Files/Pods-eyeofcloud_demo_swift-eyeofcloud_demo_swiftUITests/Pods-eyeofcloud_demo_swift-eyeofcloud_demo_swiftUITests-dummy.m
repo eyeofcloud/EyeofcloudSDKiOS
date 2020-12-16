@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests
+@end

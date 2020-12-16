@@ -1,0 +1,6 @@
+framework module Pods_EyeofcloudDemo {
+  umbrella header "Pods-EyeofcloudDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

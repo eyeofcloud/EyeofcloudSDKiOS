@@ -1,0 +1,28 @@
+PODS:
+  - Eyeofcloud (1.4.4)
+  - Masonry (1.0.2)
+  - ReactiveObjC (2.1.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Eyeofcloud (~> 1.4.4)
+  - Masonry (~> 1.0.2)
+  - ReactiveObjC (~> 2.1.2)
+  - SVProgressHUD (~> 2.1.2)
+
+SPEC REPOS:
+  trunk:
+    - Eyeofcloud
+    - Masonry
+    - ReactiveObjC
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Eyeofcloud: e3bdf787d3ef7fc17843d1b7555ae678ad9e1c7a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 9e0cc6eaa7461b24ba6c0672e13c266803cdc8af
+
+COCOAPODS: 1.10.0
