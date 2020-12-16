@@ -1,0 +1,16 @@
+PODS:
+  - Eyeofcloud (1.4.4)
+
+DEPENDENCIES:
+  - Eyeofcloud (= 1.4.4)
+
+SPEC REPOS:
+  trunk:
+    - Eyeofcloud
+
+SPEC CHECKSUMS:
+  Eyeofcloud: e3bdf787d3ef7fc17843d1b7555ae678ad9e1c7a
+
+PODFILE CHECKSUM: 3c51a48ef0cc4fe5a9888cbdd60575051422381b
+
+COCOAPODS: 1.10.0

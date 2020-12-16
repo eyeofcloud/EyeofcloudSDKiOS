@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0009F3C4228C163900C08E53 /* EOCSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009F3C3228C163900C08E53 /* EOCSplashViewController.swift */; };
+		0009F3C8228EB2FF00C08E53 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009F3C7228EB2FF00C08E53 /* DefaultViewController.swift */; };
+		002A3C83228EB65600161D3A /* EOCORIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A3C82228EB65600161D3A /* EOCORIViewController.swift */; };
+		002A3C85228EB67E00161D3A /* EOCOPTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A3C84228EB67E00161D3A /* EOCOPTViewController.swift */; };
+		007020D2254B4E1B00436601 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 007020D1254B4E1A00436601 /* config.json */; };
+		00899D7E22816E6600263264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00899D7D22816E6600263264 /* AppDelegate.swift */; };
+		00899D8322816E6600263264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00899D8122816E6600263264 /* Main.storyboard */; };
+		00899D8522816E6B00263264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00899D8422816E6B00263264 /* Assets.xcassets */; };
+		00899D8822816E6B00263264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00899D8622816E6B00263264 /* LaunchScreen.storyboard */; };
+		00899D9322816E6B00263264 /* eyeofcloud_demo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00899D9222816E6B00263264 /* eyeofcloud_demo_swiftTests.swift */; };
+		00899D9E22816E6B00263264 /* eyeofcloud_demo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00899D9D22816E6B00263264 /* eyeofcloud_demo_swiftUITests.swift */; };
+		36217524D647FBB01FF9B500 /* Pods_eyeofcloud_demo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F066D0886C0BF1511BCF72 /* Pods_eyeofcloud_demo_swiftTests.framework */; };
+		C457730C8096C0D09BF5E63B /* Pods_eyeofcloud_demo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1930FF83DE9C292E669DABC6 /* Pods_eyeofcloud_demo_swift.framework */; };
+		F206D50185B66C158F4A4163 /* Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C373F0CB6BC26BECC8206F77 /* Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00899D8F22816E6B00263264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00899D7222816E6600263264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00899D7922816E6600263264;
+			remoteInfo = eyeofcloud_demo_swift;
+		};
+		00899D9A22816E6B00263264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00899D7222816E6600263264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00899D7922816E6600263264;
+			remoteInfo = eyeofcloud_demo_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0009F3C3228C163900C08E53 /* EOCSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOCSplashViewController.swift; sourceTree = "<group>"; };
+		0009F3C7228EB2FF00C08E53 /* DefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		0019836922827E5E005517B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001983802282CD30005517B0 /* eyeofcloud_demo_swift_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eyeofcloud_demo_swift_Header.h; sourceTree = SOURCE_ROOT; };
+		002A3C82228EB65600161D3A /* EOCORIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOCORIViewController.swift; sourceTree = "<group>"; };
+		002A3C84228EB67E00161D3A /* EOCOPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOCOPTViewController.swift; sourceTree = "<group>"; };
+		007020D1254B4E1A00436601 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		00899D7A22816E6600263264 /* eyeofcloud_demo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyeofcloud_demo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00899D7D22816E6600263264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00899D8422816E6B00263264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00899D8722816E6B00263264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00899D8922816E6B00263264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00899D8E22816E6B00263264 /* eyeofcloud_demo_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyeofcloud_demo_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00899D9222816E6B00263264 /* eyeofcloud_demo_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeofcloud_demo_swiftTests.swift; sourceTree = "<group>"; };
+		00899D9422816E6B00263264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00899D9922816E6B00263264 /* eyeofcloud_demo_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyeofcloud_demo_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00899D9D22816E6B00263264 /* eyeofcloud_demo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeofcloud_demo_swiftUITests.swift; sourceTree = "<group>"; };
+		00899D9F22816E6B00263264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00BF289F2282CFD60046AC23 /* EyeofcloudSDKiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EyeofcloudSDKiOS.framework; sourceTree = "<group>"; };
+		03021832577CD56BF9D354E0 /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1930FF83DE9C292E669DABC6 /* Pods_eyeofcloud_demo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eyeofcloud_demo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C9E38BC5842AC43B9E4D7C /* Pods-eyeofcloud_demo_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swift.release.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swift/Pods-eyeofcloud_demo_swift.release.xcconfig"; sourceTree = "<group>"; };
+		62F066D0886C0BF1511BCF72 /* Pods_eyeofcloud_demo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eyeofcloud_demo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F02C5B43F9B2C0909117E5B /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C373F0CB6BC26BECC8206F77 /* Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F26E17EF163DF7106A8918 /* Pods-eyeofcloud_demo_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swiftTests/Pods-eyeofcloud_demo_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C12F170CE8BDA984B74924 /* Pods-eyeofcloud_demo_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swiftTests/Pods-eyeofcloud_demo_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9E49F8EAAD5216239B6C2EA /* Pods-eyeofcloud_demo_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eyeofcloud_demo_swift.debug.xcconfig"; path = "Target Support Files/Pods-eyeofcloud_demo_swift/Pods-eyeofcloud_demo_swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00899D7722816E6600263264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C457730C8096C0D09BF5E63B /* Pods_eyeofcloud_demo_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D8B22816E6B00263264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36217524D647FBB01FF9B500 /* Pods_eyeofcloud_demo_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D9622816E6B00263264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206D50185B66C158F4A4163 /* Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00899D7122816E6600263264 = {
+			isa = PBXGroup;
+			children = (
+				007020D1254B4E1A00436601 /* config.json */,
+				00899D7C22816E6600263264 /* eyeofcloud_demo_swift */,
+				00899D9122816E6B00263264 /* eyeofcloud_demo_swiftTests */,
+				00899D9C22816E6B00263264 /* eyeofcloud_demo_swiftUITests */,
+				00899D7B22816E6600263264 /* Products */,
+				00BF289F2282CFD60046AC23 /* EyeofcloudSDKiOS.framework */,
+				1C985E77F427552A38E0DA41 /* Pods */,
+				7E6D44559D56F70604829FAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00899D7B22816E6600263264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00899D7A22816E6600263264 /* eyeofcloud_demo_swift.app */,
+				00899D8E22816E6B00263264 /* eyeofcloud_demo_swiftTests.xctest */,
+				00899D9922816E6B00263264 /* eyeofcloud_demo_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00899D7C22816E6600263264 /* eyeofcloud_demo_swift */ = {
+			isa = PBXGroup;
+			children = (
+				001983802282CD30005517B0 /* eyeofcloud_demo_swift_Header.h */,
+				00899D7D22816E6600263264 /* AppDelegate.swift */,
+				00899D8122816E6600263264 /* Main.storyboard */,
+				00899D8422816E6B00263264 /* Assets.xcassets */,
+				00899D8622816E6B00263264 /* LaunchScreen.storyboard */,
+				00899D8922816E6B00263264 /* Info.plist */,
+				0009F3C3228C163900C08E53 /* EOCSplashViewController.swift */,
+				0009F3C7228EB2FF00C08E53 /* DefaultViewController.swift */,
+				002A3C82228EB65600161D3A /* EOCORIViewController.swift */,
+				002A3C84228EB67E00161D3A /* EOCOPTViewController.swift */,
+			);
+			path = eyeofcloud_demo_swift;
+			sourceTree = "<group>";
+		};
+		00899D9122816E6B00263264 /* eyeofcloud_demo_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				00899D9222816E6B00263264 /* eyeofcloud_demo_swiftTests.swift */,
+				00899D9422816E6B00263264 /* Info.plist */,
+			);
+			path = eyeofcloud_demo_swiftTests;
+			sourceTree = "<group>";
+		};
+		00899D9C22816E6B00263264 /* eyeofcloud_demo_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00899D9D22816E6B00263264 /* eyeofcloud_demo_swiftUITests.swift */,
+				00899D9F22816E6B00263264 /* Info.plist */,
+			);
+			path = eyeofcloud_demo_swiftUITests;
+			sourceTree = "<group>";
+		};
+		1C985E77F427552A38E0DA41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E49F8EAAD5216239B6C2EA /* Pods-eyeofcloud_demo_swift.debug.xcconfig */,
+				53C9E38BC5842AC43B9E4D7C /* Pods-eyeofcloud_demo_swift.release.xcconfig */,
+				7F02C5B43F9B2C0909117E5B /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.debug.xcconfig */,
+				03021832577CD56BF9D354E0 /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.release.xcconfig */,
+				D8F26E17EF163DF7106A8918 /* Pods-eyeofcloud_demo_swiftTests.debug.xcconfig */,
+				E1C12F170CE8BDA984B74924 /* Pods-eyeofcloud_demo_swiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E6D44559D56F70604829FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1930FF83DE9C292E669DABC6 /* Pods_eyeofcloud_demo_swift.framework */,
+				C373F0CB6BC26BECC8206F77 /* Pods_eyeofcloud_demo_swift_eyeofcloud_demo_swiftUITests.framework */,
+				62F066D0886C0BF1511BCF72 /* Pods_eyeofcloud_demo_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00899D7922816E6600263264 /* eyeofcloud_demo_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00899DA222816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swift" */;
+			buildPhases = (
+				502AEA4E586E7FCDD540C533 /* [CP] Check Pods Manifest.lock */,
+				00899D7622816E6600263264 /* Sources */,
+				00899D7722816E6600263264 /* Frameworks */,
+				00899D7822816E6600263264 /* Resources */,
+				0D35A90DEC73D28D49A55CB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eyeofcloud_demo_swift;
+			productName = eyeofcloud_demo_swift;
+			productReference = 00899D7A22816E6600263264 /* eyeofcloud_demo_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00899D8D22816E6B00263264 /* eyeofcloud_demo_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00899DA522816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swiftTests" */;
+			buildPhases = (
+				115F403F5E5F751136D1AADA /* [CP] Check Pods Manifest.lock */,
+				00899D8A22816E6B00263264 /* Sources */,
+				00899D8B22816E6B00263264 /* Frameworks */,
+				00899D8C22816E6B00263264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00899D9022816E6B00263264 /* PBXTargetDependency */,
+			);
+			name = eyeofcloud_demo_swiftTests;
+			productName = eyeofcloud_demo_swiftTests;
+			productReference = 00899D8E22816E6B00263264 /* eyeofcloud_demo_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00899D9822816E6B00263264 /* eyeofcloud_demo_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00899DA822816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swiftUITests" */;
+			buildPhases = (
+				4425C3823E84CDA3BA3A85E9 /* [CP] Check Pods Manifest.lock */,
+				00899D9522816E6B00263264 /* Sources */,
+				00899D9622816E6B00263264 /* Frameworks */,
+				00899D9722816E6B00263264 /* Resources */,
+				241182884C0CA85C1D19D61F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00899D9B22816E6B00263264 /* PBXTargetDependency */,
+			);
+			name = eyeofcloud_demo_swiftUITests;
+			productName = eyeofcloud_demo_swiftUITests;
+			productReference = 00899D9922816E6B00263264 /* eyeofcloud_demo_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00899D7222816E6600263264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = edz;
+				TargetAttributes = {
+					00899D7922816E6600263264 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					00899D8D22816E6B00263264 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 00899D7922816E6600263264;
+					};
+					00899D9822816E6B00263264 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 00899D7922816E6600263264;
+					};
+				};
+			};
+			buildConfigurationList = 00899D7522816E6600263264 /* Build configuration list for PBXProject "eyeofcloud_demo_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00899D7122816E6600263264;
+			productRefGroup = 00899D7B22816E6600263264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00899D7922816E6600263264 /* eyeofcloud_demo_swift */,
+				00899D8D22816E6B00263264 /* eyeofcloud_demo_swiftTests */,
+				00899D9822816E6B00263264 /* eyeofcloud_demo_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00899D7822816E6600263264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00899D8822816E6B00263264 /* LaunchScreen.storyboard in Resources */,
+				007020D2254B4E1B00436601 /* config.json in Resources */,
+				00899D8522816E6B00263264 /* Assets.xcassets in Resources */,
+				00899D8322816E6600263264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D8C22816E6B00263264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D9722816E6B00263264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D35A90DEC73D28D49A55CB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift/Pods-eyeofcloud_demo_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift/Pods-eyeofcloud_demo_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift/Pods-eyeofcloud_demo_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		115F403F5E5F751136D1AADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eyeofcloud_demo_swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		241182884C0CA85C1D19D61F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4425C3823E84CDA3BA3A85E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502AEA4E586E7FCDD540C533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eyeofcloud_demo_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00899D7622816E6600263264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0009F3C8228EB2FF00C08E53 /* DefaultViewController.swift in Sources */,
+				002A3C83228EB65600161D3A /* EOCORIViewController.swift in Sources */,
+				002A3C85228EB67E00161D3A /* EOCOPTViewController.swift in Sources */,
+				00899D7E22816E6600263264 /* AppDelegate.swift in Sources */,
+				0009F3C4228C163900C08E53 /* EOCSplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D8A22816E6B00263264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00899D9322816E6B00263264 /* eyeofcloud_demo_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00899D9522816E6B00263264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00899D9E22816E6B00263264 /* eyeofcloud_demo_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00899D9022816E6B00263264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00899D7922816E6600263264 /* eyeofcloud_demo_swift */;
+			targetProxy = 00899D8F22816E6B00263264 /* PBXContainerItemProxy */;
+		};
+		00899D9B22816E6B00263264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00899D7922816E6600263264 /* eyeofcloud_demo_swift */;
+			targetProxy = 00899D9A22816E6B00263264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00899D8122816E6600263264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0019836922827E5E005517B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
+		};
+		00899D8622816E6B00263264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00899D8722816E6B00263264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00899DA022816E6B00263264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00899DA122816E6B00263264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00899DA322816E6B00263264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E49F8EAAD5216239B6C2EA /* Pods-eyeofcloud_demo_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eyeofcloud_demo_swift",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = eyeofcloud_demo_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/eyeofcloud_demo_swift_Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00899DA422816E6B00263264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C9E38BC5842AC43B9E4D7C /* Pods-eyeofcloud_demo_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eyeofcloud_demo_swift",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = eyeofcloud_demo_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/eyeofcloud_demo_swift_Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00899DA622816E6B00263264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F26E17EF163DF7106A8918 /* Pods-eyeofcloud_demo_swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				INFOPLIST_FILE = eyeofcloud_demo_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeofcloud_demo_swift.app/eyeofcloud_demo_swift";
+			};
+			name = Debug;
+		};
+		00899DA722816E6B00263264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C12F170CE8BDA984B74924 /* Pods-eyeofcloud_demo_swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				INFOPLIST_FILE = eyeofcloud_demo_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeofcloud_demo_swift.app/eyeofcloud_demo_swift";
+			};
+			name = Release;
+		};
+		00899DA922816E6B00263264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F02C5B43F9B2C0909117E5B /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				INFOPLIST_FILE = eyeofcloud_demo_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eyeofcloud_demo_swift;
+			};
+			name = Debug;
+		};
+		00899DAA22816E6B00263264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03021832577CD56BF9D354E0 /* Pods-eyeofcloud_demo_swift-eyeofcloud_demo_swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6J29ANQNA;
+				INFOPLIST_FILE = eyeofcloud_demo_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heliyuntong.eyeofcloud-demo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eyeofcloud_demo_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00899D7522816E6600263264 /* Build configuration list for PBXProject "eyeofcloud_demo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00899DA022816E6B00263264 /* Debug */,
+				00899DA122816E6B00263264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00899DA222816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00899DA322816E6B00263264 /* Debug */,
+				00899DA422816E6B00263264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00899DA522816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00899DA622816E6B00263264 /* Debug */,
+				00899DA722816E6B00263264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00899DA822816E6B00263264 /* Build configuration list for PBXNativeTarget "eyeofcloud_demo_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00899DA922816E6B00263264 /* Debug */,
+				00899DAA22816E6B00263264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00899D7222816E6600263264 /* Project object */;
+}

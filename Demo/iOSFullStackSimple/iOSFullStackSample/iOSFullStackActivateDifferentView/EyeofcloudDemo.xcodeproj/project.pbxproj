@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A684521FC5993B00C27297 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = 17A684511FC5993B00C27297 /* datafile.json */; };
+		17BC7CEB1FB1E0E60099513D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BC7CEA1FB1E0E60099513D /* LaunchScreen.storyboard */; };
+		17BC7CF91FB214DB0099513D /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BC7CF81FB214DB0099513D /* LaunchImage.png */; };
+		57C3AEE91EBAC70600A165AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AEE81EBAC70600A165AD /* main.m */; };
+		57C3AEEC1EBAC70600A165AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AEEB1EBAC70600A165AD /* AppDelegate.m */; };
+		57C3AEF41EBAC70600A165AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C3AEF31EBAC70600A165AD /* Assets.xcassets */; };
+		57C3AF001EBAC75400A165AD /* YFLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AEFF1EBAC75400A165AD /* YFLoginView.m */; };
+		57C3AF0C1EBAC9F900A165AD /* YFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AF0B1EBAC9F900A165AD /* YFLoginViewController.m */; };
+		57C3AF0F1EBAD6DB00A165AD /* YFLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AF0E1EBAD6DB00A165AD /* YFLoginViewModel.m */; };
+		57C3AF171EBB0B3000A165AD /* YFFirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3AF161EBB0B3000A165AD /* YFFirstPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176064BC1FB01BB800256599 /* EyeofcloudSDKiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EyeofcloudSDKiOS.framework; sourceTree = "<group>"; };
+		17A684511FC5993B00C27297 /* datafile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datafile.json; sourceTree = "<group>"; };
+		17BC7CEA1FB1E0E60099513D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17BC7CF81FB214DB0099513D /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		17BC7D161FB2EDA00099513D /* EyeofcloudSDKiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EyeofcloudSDKiOS.framework; sourceTree = SOURCE_ROOT; };
+		57C3AEE41EBAC70600A165AD /* EyeofcloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeofcloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C3AEE81EBAC70600A165AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57C3AEEA1EBAC70600A165AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		57C3AEEB1EBAC70600A165AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		57C3AEF31EBAC70600A165AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C3AEF81EBAC70600A165AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C3AEFE1EBAC75400A165AD /* YFLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFLoginView.h; path = ../../YFLoginView.h; sourceTree = "<group>"; };
+		57C3AEFF1EBAC75400A165AD /* YFLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFLoginView.m; path = ../../YFLoginView.m; sourceTree = "<group>"; };
+		57C3AF0A1EBAC9F900A165AD /* YFLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLoginViewController.h; sourceTree = "<group>"; };
+		57C3AF0B1EBAC9F900A165AD /* YFLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLoginViewController.m; sourceTree = "<group>"; };
+		57C3AF0D1EBAD6DB00A165AD /* YFLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLoginViewModel.h; sourceTree = "<group>"; };
+		57C3AF0E1EBAD6DB00A165AD /* YFLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLoginViewModel.m; sourceTree = "<group>"; };
+		57C3AF151EBB0B3000A165AD /* YFFirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFirstPageViewController.h; sourceTree = "<group>"; };
+		57C3AF161EBB0B3000A165AD /* YFFirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFirstPageViewController.m; sourceTree = "<group>"; };
+		6EF226765353F9CD58D84489 /* Pods-LoginPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginPractice/Pods-LoginPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		88929CFBCD1B2D4FC2FD5050 /* Pods_EyeofcloudDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeofcloudDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D19DC5CC91CBC563709F04A /* Pods-EyeofcloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeofcloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyeofcloudDemo/Pods-EyeofcloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C2301F99B68F40918F40979C /* Pods-EyeofcloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeofcloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyeofcloudDemo/Pods-EyeofcloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EB01F7C4C0FECAFC61F89957 /* Pods-LoginPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginPractice/Pods-LoginPractice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		57C3AEDB1EBAC70600A165AD = {
+			isa = PBXGroup;
+			children = (
+				57C3AEE61EBAC70600A165AD /* LoginPractice */,
+				57C3AEE51EBAC70600A165AD /* Products */,
+				F6E8D80716547956CF787B4A /* Pods */,
+				59012EA2BF26462B43BBB0C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57C3AEE51EBAC70600A165AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AEE41EBAC70600A165AD /* EyeofcloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C3AEE61EBAC70600A165AD /* LoginPractice */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF061EBAC9B000A165AD /* Other */,
+				57C3AF101EBB067900A165AD /* FirstPage */,
+				57C3AF021EBAC98400A165AD /* Login */,
+				57C3AEE71EBAC70600A165AD /* Supporting Files */,
+			);
+			path = LoginPractice;
+			sourceTree = "<group>";
+		};
+		57C3AEE71EBAC70600A165AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17A684511FC5993B00C27297 /* datafile.json */,
+				17BC7D161FB2EDA00099513D /* EyeofcloudSDKiOS.framework */,
+				17BC7CF81FB214DB0099513D /* LaunchImage.png */,
+				17BC7CEA1FB1E0E60099513D /* LaunchScreen.storyboard */,
+				57C3AEF31EBAC70600A165AD /* Assets.xcassets */,
+				57C3AEF81EBAC70600A165AD /* Info.plist */,
+				57C3AEE81EBAC70600A165AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C3AF021EBAC98400A165AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF031EBAC98400A165AD /* LoginModel */,
+				57C3AF041EBAC98400A165AD /* LoginView */,
+				57C3AF051EBAC98400A165AD /* LoginViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		57C3AF031EBAC98400A165AD /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		57C3AF041EBAC98400A165AD /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF0A1EBAC9F900A165AD /* YFLoginViewController.h */,
+				57C3AF0B1EBAC9F900A165AD /* YFLoginViewController.m */,
+				57C3AEFE1EBAC75400A165AD /* YFLoginView.h */,
+				57C3AEFF1EBAC75400A165AD /* YFLoginView.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		57C3AF051EBAC98400A165AD /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF0D1EBAD6DB00A165AD /* YFLoginViewModel.h */,
+				57C3AF0E1EBAD6DB00A165AD /* YFLoginViewModel.m */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		57C3AF061EBAC9B000A165AD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AEEA1EBAC70600A165AD /* AppDelegate.h */,
+				57C3AEEB1EBAC70600A165AD /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		57C3AF101EBB067900A165AD /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF111EBB06AE00A165AD /* FirstPageView */,
+			);
+			name = FirstPage;
+			path = Other/FirstPage;
+			sourceTree = "<group>";
+		};
+		57C3AF111EBB06AE00A165AD /* FirstPageView */ = {
+			isa = PBXGroup;
+			children = (
+				57C3AF151EBB0B3000A165AD /* YFFirstPageViewController.h */,
+				57C3AF161EBB0B3000A165AD /* YFFirstPageViewController.m */,
+			);
+			path = FirstPageView;
+			sourceTree = "<group>";
+		};
+		59012EA2BF26462B43BBB0C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176064BC1FB01BB800256599 /* EyeofcloudSDKiOS.framework */,
+				88929CFBCD1B2D4FC2FD5050 /* Pods_EyeofcloudDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E8D80716547956CF787B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF226765353F9CD58D84489 /* Pods-LoginPractice.debug.xcconfig */,
+				EB01F7C4C0FECAFC61F89957 /* Pods-LoginPractice.release.xcconfig */,
+				8D19DC5CC91CBC563709F04A /* Pods-EyeofcloudDemo.debug.xcconfig */,
+				C2301F99B68F40918F40979C /* Pods-EyeofcloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C3AEE31EBAC70600A165AD /* EyeofcloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C3AEFB1EBAC70600A165AD /* Build configuration list for PBXNativeTarget "EyeofcloudDemo" */;
+			buildPhases = (
+				87F1AFDC5A48B12BC69C505E /* [CP] Check Pods Manifest.lock */,
+				57C3AEE01EBAC70600A165AD /* Sources */,
+				57C3AEE21EBAC70600A165AD /* Resources */,
+				C278F2D66D07C0CE5100FB28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeofcloudDemo;
+			productName = LoginPractice;
+			productReference = 57C3AEE41EBAC70600A165AD /* EyeofcloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C3AEDC1EBAC70600A165AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tsaievan;
+				TargetAttributes = {
+					57C3AEE31EBAC70600A165AD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 87WN8X8Z87;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57C3AEDF1EBAC70600A165AD /* Build configuration list for PBXProject "EyeofcloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 57C3AEDB1EBAC70600A165AD;
+			productRefGroup = 57C3AEE51EBAC70600A165AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C3AEE31EBAC70600A165AD /* EyeofcloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C3AEE21EBAC70600A165AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C3AEF41EBAC70600A165AD /* Assets.xcassets in Resources */,
+				17BC7CEB1FB1E0E60099513D /* LaunchScreen.storyboard in Resources */,
+				17BC7CF91FB214DB0099513D /* LaunchImage.png in Resources */,
+				17A684521FC5993B00C27297 /* datafile.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87F1AFDC5A48B12BC69C505E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeofcloudDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C278F2D66D07C0CE5100FB28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeofcloudDemo/Pods-EyeofcloudDemo-frameworks.sh",
+				"${PODS_ROOT}/Eyeofcloud/EyeofcloudSDKiOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EyeofcloudSDKiOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeofcloudDemo/Pods-EyeofcloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C3AEE01EBAC70600A165AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C3AEEC1EBAC70600A165AD /* AppDelegate.m in Sources */,
+				57C3AF0C1EBAC9F900A165AD /* YFLoginViewController.m in Sources */,
+				57C3AEE91EBAC70600A165AD /* main.m in Sources */,
+				57C3AF0F1EBAD6DB00A165AD /* YFLoginViewModel.m in Sources */,
+				57C3AF001EBAC75400A165AD /* YFLoginView.m in Sources */,
+				57C3AF171EBB0B3000A165AD /* YFFirstPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57C3AEF91EBAC70600A165AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57C3AEFA1EBAC70600A165AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C3AEFC1EBAC70600A165AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D19DC5CC91CBC563709F04A /* Pods-EyeofcloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87WN8X8Z87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LoginPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Heliyuntong.EyeofcloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57C3AEFD1EBAC70600A165AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2301F99B68F40918F40979C /* Pods-EyeofcloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87WN8X8Z87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}\"",
+					"\"${PODS_ROOT}/Masonry\"",
+					"\"${PODS_ROOT}/ReactiveObjC\"",
+					"\"${PODS_ROOT}/SVProgressHUD\"",
+				);
+				INFOPLIST_FILE = LoginPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Heliyuntong.EyeofcloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C3AEDF1EBAC70600A165AD /* Build configuration list for PBXProject "EyeofcloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C3AEF91EBAC70600A165AD /* Debug */,
+				57C3AEFA1EBAC70600A165AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C3AEFB1EBAC70600A165AD /* Build configuration list for PBXNativeTarget "EyeofcloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C3AEFC1EBAC70600A165AD /* Debug */,
+				57C3AEFD1EBAC70600A165AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C3AEDC1EBAC70600A165AD /* Project object */;
+}
